@@ -3,4 +3,20 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Kyle Pereira"
+  description: |
+    Portfolio of Kyle Pereira.
   font_url: "https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700|Roboto:300,400,700&display=swap"
+  colors:
+    background: var(--color-background)
+    accent: var(--color-primary)
+    text: var(--color-text)
+  rationales:
+    typefaces.primary: |
+      Roboto was selected because it is appealing as a sans-serif font and pairs well with the secondary font.
+    typefaces.secondary: |
+      Nunito Sans was used for the headers to help contrast with Roboto.
+    colors.primary: |
+      The green is used for headers, marked text, and the logo, the darker version is used in some areas to assist the hierarchy.
+    colors.secondary: |
+      The grey is used in the bulk of the site for text and blocked in areas to contrast the primary green and background grey.
