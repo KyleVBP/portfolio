@@ -8,9 +8,9 @@ patternbot:
     Portfolio of Kyle Pereira.
   font_url: "https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700|Roboto:300,400,700&display=swap"
   colors:
-    background: var(--color-background)
-    accent: var(--color-primary)
-    text: var(--color-text)
+    background: "--color-background"
+    accent: "--color-primary"
+    text: "--color-text"
   rationales:
     typefaces.primary: |
       Roboto was selected because it is appealing as a sans-serif font and pairs well with the secondary font.
