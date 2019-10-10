@@ -2,11 +2,13 @@
   --color-primary: #87c232;
   --color-primary-dark: #618930;
   --color-secondary: #6a6e71;
+  --color-secondary-light: #8a8e91;
   --color-secondary-dark: #474a4f;
   --color-text: #edf5e1;
   --color-background: #222629;
   --color-neutral: #e2e2e2;
   --color-dark: #000;
+  --color-transparent: rgba(0, 0, 0, 0);
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Nunito Sans", sans-serif;
 }
