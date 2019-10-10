@@ -53,5 +53,41 @@ h6 {
 }
 
 p {
-  color: #edf5e1;
+  color: var(--color-text);
+}
+
+ul {
+  color: var(--color-text);
+  list-style-type: square;
+}
+
+ol {
+  color: var(--color-text);
+}
+
+dl {
+  color: var(--color-text);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--color-primary-dark);
+}
+
+strong {
+  font-weight: 700;
+}
+
+mark  {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+}
+
+table {
+  color: var(--color-text);
 }
