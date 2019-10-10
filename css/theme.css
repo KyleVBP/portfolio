@@ -2,7 +2,8 @@
   --color-primary: #87c232;
   --color-primary-dark: #618930;
   --color-secondary: #6a6e71;
-  --color-secondary-light: #474a4f;
+  --color-secondary-dark: #474a4f;
+  --color-text: #edf5e1;
   --color-background: #222629;
   --color-neutral: #e2e2e2;
   --color-dark: #000;
@@ -12,4 +13,45 @@
 
 html {
   font-family: var(--font-primary);
+  background-color: var(--color-background);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  color: var(--color-primary-dark);
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  color: var(--color-primary-dark);
+}
+
+h4 {
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  var(--color-primary);
+}
+
+h5 {
+  font-weight: 700;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  color: var(--color-secondary);
+}
+
+h6 {
+  font-weight: 400;
+  color: var(--color-secondary-dark);
+}
+
+p {
+  color: #edf5e1;
 }
