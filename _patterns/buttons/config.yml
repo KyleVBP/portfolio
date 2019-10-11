@@ -1,0 +1,44 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where an action is required, they are primarily used in the header and footer
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to using the basic button, it is used on the header navigation.
+    fields:
+      - name: button-txt
+        type: string
+        example: "About Me"
+        required: true
+      - name: button-url
+        type: url
+        example: "/about/"
+        required: true
+  media:
+    title: "Media"
+    description: |
+      The media buttons are used to link to my personal social media, it is used on the footer navigation.
+    fields:
+      - name: button-txt
+        type: string
+        example: "Twitter"
+        required: true
+      - name: button-url
+        type: url
+        example: "Twitter.com"
+        required: true
+  action:
+    title: "Action"
+    description: |
+      The action button will be used when attention should be directed, at the moment there is nothing planned for the use of this bttton.
+    fields:
+      - name: button-txt
+        type: string
+        example: "Shop Now"
+        required: true
+      - name: button-url
+        type: url
+        example: "/store/"
+        required: true

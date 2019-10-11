@@ -1,0 +1,9 @@
+title: "Footer"
+description: |
+  The footer is used on every page to display my social links and other site info.
+
+patterns:
+  footer:
+    title: "Footer Content"
+    description: |
+      The footer is used to display some site info as well as my personal links, it belongs on every page.

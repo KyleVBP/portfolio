@@ -1,0 +1,16 @@
+title: "Sections"
+description: |
+  Sections are used among the pages to display content.
+
+patterns:
+  section:
+    title: "Section Intro"
+    description: |
+      The section intro would be used a the top of a project page to display the final product and give a small intro.
+    fields:
+      - name: section-title
+        type: string
+        example: "Motion Broadcast Package"
+      - name: section-txt
+        type: string
+        example: "The Motion Broadcast Package includes an animated intro, lower thirds, and transition"

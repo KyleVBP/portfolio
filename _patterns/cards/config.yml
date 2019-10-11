@@ -1,0 +1,13 @@
+title: "Cards"
+description: |
+  Cards are used on the homepage to display my various projects.
+
+patterns:
+  card:
+    title: "Project Card"
+    description: |
+      The project card will display a small snapshot and the title of a project.
+    fields:
+      - name: card-title
+        type: string
+        example: "Motion Broadcast Package"

@@ -1,0 +1,19 @@
+title: "Header"
+description: |
+  The header is used on every page to display the site title and navigation.
+
+patterns:
+  footer:
+    title: "Header Navigation"
+    description: |
+      The header is used on every page to act as a way for users to navigate the site.
+    fields:
+      - name: header-nav-1
+        type: string
+        example: "My Work"
+      - name: header-nav-2
+        type: string
+        example: "About Me"
+      - name: header-nav-3
+        type: string
+        example: "Contact"

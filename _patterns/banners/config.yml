@@ -1,0 +1,15 @@
+title: "Banners"
+description: |
+  Banners are used on the homepage to give an intro about myself.
+patterns:
+  banner:
+    title: "Introduction"
+    description: |
+      This banner is used to catch the attention of viewers and give them an introuction of myself.
+    fields:
+      - name: heading-title
+        type: string
+        example: "Hey! I'm Kyle"
+      - name: heading-txt
+        type: string
+        example: "I'm a Graphic Designer based in Ottawa, with a passion for Motion Design."
