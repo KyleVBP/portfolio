@@ -27,13 +27,13 @@ h1 {
 h2 {
   font-family: var(--font-secondary);
   font-weight: 400;
-  color: var(--color-primary-dark);
+  color: var(--color-primary);
 }
 
 h3 {
   font-family: var(--font-secondary);
   font-weight: 700;
-  color: var(--color-primary-dark);
+  color: var(--color-primary);
 }
 
 h4 {

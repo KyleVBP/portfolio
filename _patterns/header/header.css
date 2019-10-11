@@ -1,0 +1,40 @@
+.header {
+  background-color: var(--color-background);
+  overflow: hidden;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  clear: both;
+  text-align: center;
+}
+
+.head-txt {
+  text-align: center;
+  float: none;
+}
+
+.head-txt:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .head-txt {
+    text-align: center;
+    float: left;
+  }
+
+  .nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    clear: none;
+    float: right;
+    overflow: hidden;
+  }
+
+}
