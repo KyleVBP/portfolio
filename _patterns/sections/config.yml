@@ -13,4 +13,37 @@ patterns:
         example: "Motion Broadcast Package"
       - name: section-txt
         type: string
-        example: "The Motion Broadcast Package includes an animated intro, lower thirds, and transition"
+        example: "The Motion Broadcast Package includes an animated intro, lower thirds, and transition."
+  section-double:
+    title: "Section Double"
+    description: |
+      The double section would be used on a project page to display pictures alongside descriptive text.
+    fields:
+      - name: section-title
+        type: string
+        example: "Primary Sketches"
+      - name: section-txt
+        type: string
+        example: "The primary sketches for this project consisted of drafting up something akin to a spaceship airlock, which would be animated to open up revealing the logo. Then the lower thirds and transitions were sketched to match the style of each of those."
+  section-triple:
+    title: "Section Triple"
+    description: |
+      The triple section would be used on a project page to display pictures alongside descriptive text.
+    fields:
+      - name: section-title
+        type: string
+        example: "Primary Vectors"
+      - name: section-txt
+        type: string
+        example: "After drafting up the initial sketches and making the required changes I worked on recreating them in Illustrator to get a better idea of the final product, as well as which elements will be moving."
+  section-reverse:
+    title: "Section Reverse"
+    description: |
+      The section reverse can be used across a project page to disply a picture alongside text but will mainly be used on the About Me page to show a headhot and description of myself.
+    fields:
+      - name: section-title
+        type: string
+        example: "About Me"
+      - name: section-txt
+        type: string
+        example: "Kyle Pereira is a Graphic Designer interested in Typography, Motion Graphics, and Web Development. I came to Algonquin's Graphic Design program out of high school where I had a big interest in photography, designing, and video editing."

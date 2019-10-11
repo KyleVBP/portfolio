@@ -3,7 +3,7 @@ description: |
   The header is used on every page to display the site title and navigation.
 
 patterns:
-  footer:
+  header:
     title: "Header Navigation"
     description: |
       The header is used on every page to act as a way for users to navigate the site.
