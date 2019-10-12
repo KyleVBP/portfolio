@@ -14,10 +14,21 @@
 .head-txt {
   text-align: center;
   float: none;
+  position: relative;
 }
 
-.head-txt:hover {
-  text-decoration: underline;
+.head-txt::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  border-bottom: 2px solid var(--color-primary);
+  transition: all .25s ease;
+}
+
+.head-txt:hover::after {
+  width: 100%;
 }
 
 @media only screen and (min-width: 38em) {
