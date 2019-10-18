@@ -6,4 +6,9 @@ patterns:
   footer:
     title: "Footer Content"
     description: |
-      The footer is used to display some site info as well as my personal links, it belongs on every page.
+      The footer is used to display some site info as well as my personal links, it belongs on every page except for the contact page.
+patterns:
+  footer:
+    title: "Footer Contact"
+    description: |
+      The footer is used to display less info than the other footer, it belongs on the contact page.

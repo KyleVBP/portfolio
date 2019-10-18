@@ -39,7 +39,18 @@ patterns:
   section-reverse:
     title: "Section Reverse"
     description: |
-      The section reverse can be used across a project page to disply a picture alongside text but will mainly be used on the About Me page to show a headhot and description of myself.
+      The section reverse can be used across a project page to disply a picture alongside text.
+    fields:
+      - name: section-title
+        type: string
+        example: "Final Work"
+      - name: section-txt
+        type: string
+        example: "Here is a small part of the finished work in Illustrator, it is almost ready to be animated."
+  section-about:
+    title: "Section About"
+    description: |
+      The section about will mainly be used on the About Me page to show a headhot and description of myself.
     fields:
       - name: section-title
         type: string
@@ -47,3 +58,14 @@ patterns:
       - name: section-txt
         type: string
         example: "Kyle Pereira is a Graphic Designer interested in Typography, Motion Graphics, and Web Development. I came to Algonquin's Graphic Design program out of high school where I had a big interest in photography, designing, and video editing."
+  section-links:
+    title: "Section Links"
+    description: |
+      The section about will be used to give a larger view of my
+    fields:
+      - name: section-title-1
+        type: string
+        example: "Social Links"
+      - name: section-title-2
+        type: string
+        example: "Email"
