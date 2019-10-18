@@ -10,3 +10,23 @@
 .footer-btn:hover {
   color: var(--color-text)
 }
+
+.info-hvr {
+  position: relative;
+}
+
+.info-hvr::after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5px;
+  width: 0%;
+  border-bottom: 2px solid var(--color-primary);
+  transition: all .25s ease;
+}
+
+.info-hvr:hover::after {
+  width: 100%;
+  text-decoration: none;
+}

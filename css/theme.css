@@ -32,7 +32,7 @@ h2 {
 
 h3 {
   font-family: var(--font-secondary);
-  font-weight: 700;
+  font-weight: 400;
   color: var(--color-primary);
 }
 
@@ -43,6 +43,7 @@ h4 {
 }
 
 h5 {
+  font-family: var(--font-secondary);
   font-weight: 700;
   text-transform: lowercase;
   font-variant: small-caps;
@@ -50,6 +51,7 @@ h5 {
 }
 
 h6 {
+  font-family: var(--font-secondary);
   font-weight: 400;
   color: var(--color-secondary-dark);
 }
@@ -77,8 +79,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
-  color: var(--color-primary-dark);
+  color: var(--color-primary);
 }
 
 strong {
