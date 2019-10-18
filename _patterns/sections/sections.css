@@ -1,0 +1,17 @@
+.link-txt {
+  position: relative;
+}
+
+.link-txt::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  border-bottom: 2px solid var(--color-primary);
+  transition: all .25s ease;
+}
+
+.link-txt:hover::after {
+  width: 100%;
+}

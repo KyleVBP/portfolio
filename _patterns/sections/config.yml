@@ -43,10 +43,10 @@ patterns:
     fields:
       - name: section-title
         type: string
-        example: "Final Work"
+        example: "Final Vectors"
       - name: section-txt
         type: string
-        example: "Here is a small part of the finished work in Illustrator, it is almost ready to be animated."
+        example: "Here is a part of the finished vector work in Illustrator, it is ready to be animated in After Effects for the final product."
   section-about:
     title: "Section About"
     description: |
