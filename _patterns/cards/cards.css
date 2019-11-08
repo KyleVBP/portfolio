@@ -1,10 +1,10 @@
 .img-hvr img {
-  filter: grayscale(100%) contrast(150%);
-  transition: all .4s linear;
+  filter: grayscale(50%) contrast(150%);
+  transition: all .3s linear;
 }
 
 .img-hvr:hover img {
-  filter: grayscale(0) contrast(100%);
+  filter: grayscale(25%) contrast(100%);
 }
 
 .proj-img {
