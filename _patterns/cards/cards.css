@@ -1,5 +1,5 @@
 .img-hvr img {
-  filter: grayscale(50%) contrast(150%);
+  filter: grayscale(100%) contrast(125%);
   transition: all .3s linear;
 }
 
