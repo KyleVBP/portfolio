@@ -1,0 +1,13 @@
+# humanstxt.org
+
+# TECHNOLOGY
+
+## Software
+
+- Atom
+- Pattern Library
+
+## Hosting
+
+- Github
+- Netlify
