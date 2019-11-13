@@ -25,6 +25,17 @@ patterns:
       - name: section-txt
         type: string
         example: "The primary sketches for this project consisted of drafting up something akin to a spaceship airlock, which would be animated to open up revealing the logo. Then the lower thirds and transitions were sketched to match the style of each of those."
+  section-double-extra:
+    title: "Section Double Extra"
+    description: |
+      The extra double section would be used when more than 2 pictures are required
+    fields:
+      - name: section-title
+        type: string
+        example: "Primary Sketches"
+      - name: section-txt
+        type: string
+        example: "The primary sketches for this project consisted of drafting up something akin to a spaceship airlock, which would be animated to open up revealing the logo. Then the lower thirds and transitions were sketched to match the style of each of those."
   section-triple:
     title: "Section Triple"
     description: |
