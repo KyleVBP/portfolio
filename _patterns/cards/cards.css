@@ -19,7 +19,7 @@
   content: " ";
   position: absolute;
   left: 0;
-  bottom: -0.25em;
+  bottom: -0.3em;
   width: 0%;
   border-bottom: 2px solid var(--color-primary);
   transition: all .25s ease;
