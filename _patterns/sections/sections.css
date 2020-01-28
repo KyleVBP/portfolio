@@ -3,6 +3,10 @@
   text-decoration: none;
 }
 
+.link-txt:hover {
+  text-decoration: none;
+}
+
 .link-txt::after {
   content: " ";
   position: absolute;
